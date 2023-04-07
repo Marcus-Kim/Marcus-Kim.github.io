@@ -3893,3 +3893,15 @@ input, select, textarea {
     max-width: calc(100% / 6);
 		font-size: 1em;
 	}
+
+	.resume-contact {
+		display: flex;
+		column-gap: 20px;
+		align-items: flex-end;
+		justify-content: end;
+		margin-bottom: 40px;
+	}
+
+	#project-image {
+		height: auto;
+	}

@@ -24,9 +24,9 @@
 						<header>
 							<h1>Marcus Kim</h1>
 							<p>A full stack software developer based in Chandler, Arizona</p>
-							<div>
+							<div class="resume-contact">
 								<a href="images/resume.pdf">Resume</a>
-								<button>Email</button>
+								<a href="#contact-me">Contact Me</a>
 							</div>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
@@ -44,7 +44,6 @@
 						</header>
 						<div class="content">
 							<p>I am a full stack software engineer who is passionate about coding and learning new technologies. After 6 months of attending a rigorous software development bootcamp, I've been able to learn the technologies for, and create some cool things! Come check them out.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 						</div>
 					</section>
 
@@ -88,10 +87,10 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+											<a href="images/projects/bootcamp_brokers/home_page.png" class="landscape"><img id="project-image" src="images/projects/bootcamp_brokers/home_page.png" alt="" /></a>
+											<a href="images/projects/bootcamp_brokers/chat_bot.png"><img id="project-image" src="images/projects/bootcamp_brokers/chat_bot.png" alt="" /></a>
+											<a href="images/projects/bootcamp_brokers/watchlists.png"><img id="project-image" src="images/projects/bootcamp_brokers/watchlists.png" alt="" /></a>
+											<a href="images/projects/bootcamp_brokers/stock_details_page.png" class="landscape"><img id="project-image" src="images/projects/bootcamp_brokers/stock_details_page.png" alt="" /></a>
 										</div>
 									</div>
 								</section>
@@ -104,9 +103,10 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+											<a href="images/projects/slackline/slackline-splash.png" class="landscape"><img id="project-image" src="images/projects/slackline/slackline-splash.png" alt="" /></a>
+											<a href="images/projects/slackline/slackline-signup.png"><img id="project-image" src="images/projects/slackline/slackline-signup.png" alt="" /></a>
+											<a href="images/projects/slackline/slackline-create-channel.png"><img id="project-image" src="images/projects/slackline/slackline-create-channel.png" alt="" /></a>
+											<a href="images/projects/slackline/slackline-home.png" class="landscape"><img id="project-image" src="images/projects/slackline/slackline-home.png" alt="" /></a>
 										</div>
 									</div>
 								</section>
@@ -119,9 +119,10 @@
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+											<a href="images/projects/bookme/bookme-home.png" class="landscape"><img id="project-image" src="images/projects/bookme/bookme-home.png" alt="" /></a>
+											<a href="images/projects/bookme/bookme-create.png" class="portrait"><img id="project-image" src="images/projects/bookme/bookme-create.png" alt="" /></a>
+											<a href="images/projects/bookme/bookme-review.png" class="portrait"><img id="project-image" src="images/projects/bookme/bookme-review.png" alt="" /></a>
+											<a href="images/projects/bookme/bookme-details.png" class="landscape"><img id="project-image" src="images/projects/bookme/bookme-details.png" alt="" /></a>
 										</div>
 									</div>
 								</section>
@@ -129,19 +130,6 @@
 						</div>
 					</section>
 
-				<!-- Section -->
-					<section>
-						<header>
-							<h2>Duis sed adpiscing veroeros amet</h2>
-						</header>
-						<div class="content">
-							<p><strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.</p>
-							<ul class="actions">
-								<li><a href="#" class="button primary large">Get Started</a></li>
-								<li><a href="#" class="button large">Learn More</a></li>
-							</ul>
-						</div>
-					</section>
 
 				<!-- Elements -->
 				<!--
@@ -412,13 +400,13 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 				-->
 
 				<!-- Section -->
-					<section>
+					<section id="contact-me">
 						<header>
 							<h2>Get in touch</h2>
 						</header>
 						<div class="content">
-							<p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
-							<form>
+							<p><strong>Contact Me:</strong> Feel free to reach out if you have any business inquiries.</p>
+							<!-- <form>
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -433,31 +421,24 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" /></li>
 								</ul>
-							</form>
+							</form> -->
 						</div>
 						<footer>
 							<ul class="items">
 								<li>
 									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
+									<a href="#">marcuskim.dev@gmail.com</a>
 								</li>
 								<li>
 									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
-								</li>
-								<li>
-									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
+									<a href="#">(602) 460-1574</a>
 								</li>
 								<li>
 									<h3>Elsewhere</h3>
 									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
+										<li><a href="https://www.linkedin.com/in/marcuskim1/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/Marcus-Kim" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://wellfound.com/u/marcus-kim-4" class="icon brands fa-angellist"><span class="label">Codepen</span></a></li>
 									</ul>
 								</li>
 							</ul>
